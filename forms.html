@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Information</title>
+</head>
+<body>
+    <form action="backend.php">
+        <div>
+            Name <input type="text" name="myName">
+        </div>
+        <br>
+
+        <div>
+            Email <input type="email" name="myEmail">
+        </div>
+        <br>
+
+        <div>
+            DOB <input type="date" name="myDOB">
+        </div>
+        <br>
+
+        <div>
+            Phone <input type="number" name="myPhone">
+        </div>
+        <br>
+
+        <div>
+            Gender : Male <input type="radio" name="myGender">
+                    Female <input type="radio" name="myGender">
+        </div>
+        <br>
+<br>
+<label for=terms>Terms and Conditions</label>
+        <div>
+            <input type="checkbox" name="myConditions" id="terms">
+        </div>
+        <br>
+
+        <div>
+            About yourself <br><textarea name="about"  cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="city">City</label>
+            <select name="city" id="city">
+                <option value="Bangalore">Bangalore</option>
+                <option value="Mysore" selected>Mysore</option>
+            </select>
+        </div>
+        <div>
+            Submit <input type="submit" name="Submit">
+
+             Reset <input type="reset" name="Reset">
+        </div>
+        <br>
+        
+    </form>
+</body>
+</html>
